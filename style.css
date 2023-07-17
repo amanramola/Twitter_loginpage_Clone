@@ -1,0 +1,204 @@
+*{
+    padding:0;
+    margin:0;
+    background-color: rgba(128, 128, 128, 0.499);
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+@media (max-width:699px){
+    .container{
+        background-color: white;
+    }
+}
+.boxfirst{
+    height:90%;
+    width:600px;
+    background-color: rgb(255, 255, 255);
+    border-radius:  20px;
+    overflow:auto;
+}
+.boxfirstcontainer{
+    background-color: white;
+    display: flex;
+}
+.box1{
+    cursor: pointer;
+   margin:10px 10px;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.box1 img{
+    width:18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 50%;
+    padding:8px;
+}
+.box1 img:hover{
+    background-color:rgba(0, 0, 0, 0.119);
+}
+.box1 img:active{
+    background-color:rgba(0, 0, 0, 0.212);
+}
+.box2{
+    height:34px;
+    width:80%;
+    margin-top: 10px;
+    margin-right:10px;
+    margin-left:5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 img{
+    width:30.27px;
+    height:24.61px;
+    background-color: white;
+}
+.boxsecond{
+    font-size: 2.1rem;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:76px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.boxthird{
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxthirdcontainer{
+    height:100%;
+    background-color: white;
+    font-family:sans-serif;
+}
+.google{
+    margin-top: 15px;
+    width:300px;
+    border:1px solid rgb(182, 182, 182);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:4px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+}
+.google img{
+    height:18px;
+    width:18px;
+    background-color: white;
+    padding:5px;
+    border-radius: 50%;
+}
+.google:hover{
+    background-color: rgb(240, 251, 251);
+    border:1px solid rgb(138, 138, 255);
+    cursor:pointer;
+}
+.apple{
+    width:300px;
+    border:1px solid rgb(182, 182, 182);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:4px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    margin-top: 23.5px;
+}
+.apple img{
+    height:25px;
+    width:25px;
+    background-color: white;
+    padding:2px;
+    border-radius: 50%;
+}
+.apple:hover{
+    background-color:rgb(232, 229, 229);
+    cursor:pointer;
+}
+.or{
+    margin:9.5px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.or hr{
+    width:100%;
+    background-color: white;
+    height:0px;
+    margin:10px;
+}
+.input{
+    background-color: white;
+}
+.input input{
+    background-color: white;
+    width:95%;
+    height:40px;
+    font-size: 17px;
+    border-radius: 4px;
+    border:1px solid  rgb(182, 182, 182);
+    padding:5px 8px;
+}
+.btn{
+    background-color: white;
+}
+.btn button{
+    background-color: black;
+    border:1px solid  black;
+    color:white;
+    width:100%;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    margin-top: 25px;
+    font-weight: bold;
+    padding:8px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: rgb(41, 41, 41);
+    border:1px solid rgb(41, 41, 41); 
+}
+.forget{
+    background-color: white;
+    border: 1px solid  rgb(182, 182, 182);
+    border-radius: 30px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    font-weight: bold;
+    padding:8px;
+    cursor: pointer;
+    text-align: center;
+}
+.forget:hover{
+    background-color:rgb(219, 219, 219)
+}
+.signin{
+    background-color: white;
+    font-size: 0.9rem;
+    margin-top:45px;
+    color:rgb(123, 122, 122);
+}
+.signin a{
+    color:#1d9bf0;
+    text-decoration: none;
+    background-color: white;
+}
+.signin a:hover{
+    text-decoration: underline;
+}
